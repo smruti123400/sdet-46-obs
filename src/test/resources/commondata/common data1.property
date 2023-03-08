@@ -1,0 +1,8 @@
+url=http://rmgtestingserver/domain/Online_Banking_System/
+staffun=210001
+staffpwd=password
+time=10
+browser=chrome
+reportfilepath:./src/test/resources/Report/test_report.html
+reporttitle:TEST REPORT
+reportname:sdet46

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-02T18:08:13 IST" name="Suite" finished-at="2023-03-02T18:08:39 IST" duration-ms="25830">
+    <groups>
+      <group name="smoketesting">
+        <method signature="AddBenificaryTransferTheAmount.addBenificaryTransferTheAmount()[pri:0, instance:banking.obs.customer.AddBenificaryTransferTheAmount@3c77d488]" name="addBenificaryTransferTheAmount" class="banking.obs.customer.AddBenificaryTransferTheAmount"/>
+        <method signature="AplyDebitcardAndRegd.AplyDebitcardAndRegd()[pri:0, instance:banking.obs.customer.AplyDebitcardAndRegd@63376bed]" name="AplyDebitcardAndRegd" class="banking.obs.customer.AplyDebitcardAndRegd"/>
+        <method signature="CreateCustomerAccountAndApprove.createCustomerAccountAndApprove()[pri:0, instance:banking.obs.staff.CreateCustomerAccountAndApprove@60099951]" name="createCustomerAccountAndApprove" class="banking.obs.staff.CreateCustomerAccountAndApprove"/>
+        <method signature="CreateCustomerAccountAndApprove.createCustomerAccountAndApprove()[pri:0, instance:banking.obs.staff.CreateCustomerAccountAndApprove@53fb3dab]" name="createCustomerAccountAndApprove" class="banking.obs.staff.CreateCustomerAccountAndApprove"/>
+      </group> <!-- smoketesting -->
+    </groups>
+    <test started-at="2023-03-02T18:08:13 IST" name="Test" finished-at="2023-03-02T18:08:38 IST" duration-ms="24102">
+      <class name="banking.obs.customer.AddBenificaryTransferTheAmount">
+        <test-method is-config="true" signature="intializationsetup(java.lang.String)[pri:0, instance:banking.obs.customer.AddBenificaryTransferTheAmount@3c77d488]" started-at="2023-03-02T18:08:25 IST" name="intializationsetup" finished-at="2023-03-02T18:08:26 IST" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializationsetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:banking.obs.customer.AddBenificaryTransferTheAmount@3c77d488]" started-at="2023-03-02T18:08:26 IST" name="setup" finished-at="2023-03-02T18:08:27 IST" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addBenificaryTransferTheAmount()[pri:0, instance:banking.obs.customer.AddBenificaryTransferTheAmount@3c77d488]" started-at="2023-03-02T18:08:27 IST" name="addBenificaryTransferTheAmount" finished-at="2023-03-02T18:08:31 IST" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBenificaryTransferTheAmount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:banking.obs.customer.AddBenificaryTransferTheAmount@3c77d488]" started-at="2023-03-02T18:08:31 IST" name="teardown" finished-at="2023-03-02T18:08:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intializationteardown()[pri:0, instance:banking.obs.customer.AddBenificaryTransferTheAmount@3c77d488]" started-at="2023-03-02T18:08:31 IST" name="intializationteardown" finished-at="2023-03-02T18:08:31 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializationteardown -->
+      </class> <!-- banking.obs.customer.AddBenificaryTransferTheAmount -->
+      <class name="banking.obs.customer.AplyDebitcardAndRegd">
+        <test-method is-config="true" signature="intializationsetup(java.lang.String)[pri:0, instance:banking.obs.customer.AplyDebitcardAndRegd@63376bed]" started-at="2023-03-02T18:08:31 IST" name="intializationsetup" finished-at="2023-03-02T18:08:31 IST" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializationsetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:banking.obs.customer.AplyDebitcardAndRegd@63376bed]" started-at="2023-03-02T18:08:31 IST" name="setup" finished-at="2023-03-02T18:08:33 IST" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AplyDebitcardAndRegd()[pri:0, instance:banking.obs.customer.AplyDebitcardAndRegd@63376bed]" started-at="2023-03-02T18:08:33 IST" name="AplyDebitcardAndRegd" finished-at="2023-03-02T18:08:38 IST" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AplyDebitcardAndRegd -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:banking.obs.customer.AplyDebitcardAndRegd@63376bed]" started-at="2023-03-02T18:08:38 IST" name="teardown" finished-at="2023-03-02T18:08:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intializationteardown()[pri:0, instance:banking.obs.customer.AplyDebitcardAndRegd@63376bed]" started-at="2023-03-02T18:08:38 IST" name="intializationteardown" finished-at="2023-03-02T18:08:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializationteardown -->
+      </class> <!-- banking.obs.customer.AplyDebitcardAndRegd -->
+      <class name="banking.obs.staff.CreateCustomerAccountAndApprove">
+        <test-method is-config="true" signature="intializationsetup(java.lang.String)[pri:0, instance:banking.obs.staff.CreateCustomerAccountAndApprove@60099951]" started-at="2023-03-02T18:08:14 IST" name="intializationsetup" finished-at="2023-03-02T18:08:15 IST" duration-ms="1208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializationsetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:banking.obs.staff.CreateCustomerAccountAndApprove@60099951]" started-at="2023-03-02T18:08:15 IST" name="setup" finished-at="2023-03-02T18:08:18 IST" duration-ms="3031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createCustomerAccountAndApprove()[pri:0, instance:banking.obs.staff.CreateCustomerAccountAndApprove@60099951]" started-at="2023-03-02T18:08:18 IST" name="createCustomerAccountAndApprove" finished-at="2023-03-02T18:08:25 IST" duration-ms="7229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerAccountAndApprove -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:banking.obs.staff.CreateCustomerAccountAndApprove@60099951]" started-at="2023-03-02T18:08:25 IST" name="teardown" finished-at="2023-03-02T18:08:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intializationteardown()[pri:0, instance:banking.obs.staff.CreateCustomerAccountAndApprove@60099951]" started-at="2023-03-02T18:08:25 IST" name="intializationteardown" finished-at="2023-03-02T18:08:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializationteardown -->
+      </class> <!-- banking.obs.staff.CreateCustomerAccountAndApprove -->
+    </test> <!-- Test -->
+    <test started-at="2023-03-02T18:08:38 IST" name="Test1" finished-at="2023-03-02T18:08:39 IST" duration-ms="857">
+      <class name="banking.obs.staff.CreateCustomerAccountAndApprove">
+        <test-method is-config="true" signature="intializationsetup(java.lang.String)[pri:0, instance:banking.obs.staff.CreateCustomerAccountAndApprove@53fb3dab]" started-at="2023-03-02T18:08:38 IST" name="intializationsetup" finished-at="2023-03-02T18:08:39 IST" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializationsetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:banking.obs.staff.CreateCustomerAccountAndApprove@53fb3dab]" started-at="2023-03-02T18:08:39 IST" name="setup" finished-at="2023-03-02T18:08:39 IST" duration-ms="674" status="FAIL">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[java.net.UnknownHostException: raw.githubusercontent.com]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: raw.githubusercontent.com
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1423)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1204)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1439)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1416)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1204)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:419)
+at com.obs.genericutility.Webdriverutility.launchBrowser(Webdriverutility.java:45)
+at com.obs.genericutility.BaseClass.setup(BaseClass.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.net.UnknownHostException: raw.githubusercontent.com
+at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:162)
+at io.github.bonigarcia.wdm.WebDriverManager.openGitHubConnection(WebDriverManager.java:1607)
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromGitHub(WebDriverManager.java:1621)
+at io.github.bonigarcia.wdm.managers.FirefoxDriverManager.getDriverUrls(FirefoxDriverManager.java:102)
+at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1444)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1279)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1198)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createCustomerAccountAndApprove()[pri:0, instance:banking.obs.staff.CreateCustomerAccountAndApprove@53fb3dab]" started-at="2023-03-02T18:08:39 IST" name="createCustomerAccountAndApprove" finished-at="2023-03-02T18:08:39 IST" duration-ms="0" status="SKIP">
+          <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
+            <message>
+              <![CDATA[java.net.UnknownHostException: raw.githubusercontent.com]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: raw.githubusercontent.com
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1423)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1204)
+at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1439)
+at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1416)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1204)
+at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:419)
+at com.obs.genericutility.Webdriverutility.launchBrowser(Webdriverutility.java:45)
+at com.obs.genericutility.BaseClass.setup(BaseClass.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.net.UnknownHostException: raw.githubusercontent.com
+at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:162)
+at io.github.bonigarcia.wdm.WebDriverManager.openGitHubConnection(WebDriverManager.java:1607)
+at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromGitHub(WebDriverManager.java:1621)
+at io.github.bonigarcia.wdm.managers.FirefoxDriverManager.getDriverUrls(FirefoxDriverManager.java:102)
+at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1444)
+at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1279)
+at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1198)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.github.bonigarcia.wdm.config.WebDriverManagerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerAccountAndApprove -->
+        <test-method is-config="true" signature="intializationteardown()[pri:0, instance:banking.obs.staff.CreateCustomerAccountAndApprove@53fb3dab]" started-at="2023-03-02T18:08:39 IST" name="intializationteardown" finished-at="2023-03-02T18:08:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializationteardown -->
+      </class> <!-- banking.obs.staff.CreateCustomerAccountAndApprove -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
