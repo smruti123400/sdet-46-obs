@@ -63,9 +63,6 @@ StaffHomePage staffhomePage=new StaffHomePage(driver);
 PendingCustomerPage pendingCustomerPage=new PendingCustomerPage(driver);
 CustomerDetailsPage customerDetailspage=new CustomerDetailsPage(driver);
 
-
-
-
 homePage.getFundTransferOrOpenAccntOrApplyDebitCard(CommonTabs.OPEN_ACCOUNT);
 
 String actual=driver.getTitle();
